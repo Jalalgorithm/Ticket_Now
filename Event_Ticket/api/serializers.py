@@ -8,5 +8,8 @@ class EventSerializer(serializers.ModelSerializer):
         fields='__all__'
         
 class CategorySerializer(serializers.ModelSerializer):
-    model=EventCategory
-    fields='__all__'
+    class Meta:
+        model=EventCategory
+        fields='__all__' 
+    
+    
