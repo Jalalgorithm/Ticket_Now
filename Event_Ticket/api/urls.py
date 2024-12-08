@@ -11,5 +11,7 @@ urlpatterns=[
     path('category/<int:pk>/' , views.EventCategoryDetail.as_view() , name='event_category_detail' ), 
     
     #category list
-    path('category/' , views.CategoryListCreate.as_view() , name='category_list_create' )
+    path('category/' , views.CategoryListCreate.as_view() , name='category_list_create' ) ,
+    
+    path('tickettype/' , views.TicketTypeListCreate.as_view() , name='TicketType_list_create')
 ]

@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework import generics
-from .models import Event , EventCategory
-from .serializers import EventSerializer , CategorySerializer
+from .models import Event , EventCategory , TicketType
+from .serializers import EventSerializer , CategorySerializer ,TicketTypeSerializer
 from rest_framework.viewsets import ModelViewSet
 # Create your views here.
 
@@ -29,5 +29,9 @@ class EventCategoryDetail(generics.RetrieveUpdateDestroyAPIView):
 class CategoryListCreate(generics.ListCreateAPIView):
     queryset = EventCategory.objects.all()
     serializer_class = CategorySerializer
+    
+class TicketTypeListCreate(generics.ListCreateAPIView):
+    queryset = TicketType.objects.all()
+    serializer_class = TicketTypeSerializer
     
     
