@@ -140,5 +140,5 @@ This project is distributed under the MIT License. See the LICENSE file for more
 Contact:
 --------
 Your Name
-Email: your.email@example.com
-Project Link: https://github.com/username/event-ticket-management-system
+Email: temitomzi@gmail.com
+Project Link: https://github.com/jalalgorithm/Ticket_Now
