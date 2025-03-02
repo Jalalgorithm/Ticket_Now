@@ -38,7 +38,7 @@ Prerequisites:
 Steps to Install:
 
 1. Clone the Repository:
-       git clone https://github.com/username/event-ticket-management-system.git
+       git clone https://github.com/jalalgorithm/ticket_now.git
 
 2. Navigate to the Project Directory:
        cd event-ticket-management-system
